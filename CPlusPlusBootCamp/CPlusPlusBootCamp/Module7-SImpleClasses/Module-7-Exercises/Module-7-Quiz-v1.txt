@@ -1,0 +1,30 @@
+What will the following code print out?
+(hint: upper case characters have smaller ascii value than lower case characters)
+#include <iostream>
+#include <string>
+using namespace std;
+class Part {
+   private:
+      string partName;
+      int partNumber;
+   public:
+      Part(const string &pn, int pnum) {
+         if(pn.length()>0 && pn[0]>='a' && pn[0]<='z')
+            partName = (char)(pn[0]-('a'-'A'))+pn.substr(1);
+         else
+            partName = "";
+         partNumber = pnum;
+      }
+      string getPartName() { return partName;}
+      int getPartNumber() {return partNumber;}
+};
+int main () {
+   Part *p = new Part("widget", 101);
+   cout << (p->getPartName()+" "+to_string(p->getPartNumber()))<< endl;
+   return 0
+}
+A. Widget
+B. widget 42
+C. Widget 42
+D. 42
+ANSWER: C.

@@ -1,0 +1,35 @@
+What will the following code display in the console window?
+     int p = 0;
+     if(p=0)
+        cout << p << endl;
+     else
+        cout << 42 << endl;
+
+A. 4
+B. 0
+C. 2
+D. 42
+ANSWER: E
+
+What will the following code display in the console window?
+int r = 3;
+int w = ((r=1) == 1)
+cout << r + w << endl;
+
+A. 4
+B. true
+C. 2
+D. 42
+ANSWER: A
+
+What will the following code display in the console window?
+int foo = 3;
+while(foo < 45) foo *=2;
+foo-=6;
+cout << "foo is: " << foo << endl;
+
+A. 4
+B. true
+C. 2
+D. 42
+ANSWER: D

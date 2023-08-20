@@ -1,0 +1,6 @@
+The following line using namespace std: is included for the following reason:
+A. Eliminates the need for #include <iostream>
+B. Eliminates the need for std:: in front of cout
+C. Eliminates the need for the line return 0;
+D. 42
+ANSWER: B

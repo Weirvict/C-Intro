@@ -1,0 +1,40 @@
+What will the following code print out?
+string s = “abcdefg”;
+cout << s.length() << end;
+
+A. abc
+B. 7
+C. 6
+D. 42
+ANSWER: B
+
+What will the following code print out?
+string s = “abcdefg”;
+s.insert(3, “the cat”)
+cout << s << endl;
+
+A. abcdthe catfg
+B. 7
+C. abcthe catdefg
+D. 42
+ANSWER: A
+
+What will the following code print out?
+string s = “abcdefg”;
+cout << s.find(“cd”) << endl;
+
+A. defg
+B. 2
+C. 3
+D. 42
+ANSWER: B
+
+What will the following code print out?
+string s = “abcdefg”;
+cout << s.substr(3) << endl;
+
+A. defg
+B. efg
+C. abc
+D. 42
+ANSWER: A.

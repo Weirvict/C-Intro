@@ -1,0 +1,9 @@
+			CLEAR               
+			LOAD cFive          
+	FOR_LOOP,	OUTPUT              
+			SUBT cOne           
+			SKIPCOND 000        
+			JUMP FOR_LOOP       
+			HALT                
+	cFive,   	DEC 5               
+	cOne,    	DEC 1  

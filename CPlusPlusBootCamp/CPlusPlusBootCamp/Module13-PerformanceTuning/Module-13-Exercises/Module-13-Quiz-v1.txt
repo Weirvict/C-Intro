@@ -1,0 +1,9 @@
+What will the following C++ code fragment output? 	
+unsigned int z1 = 3;
+unsigned int b = (z1 << 1) ^ z1;
+cout << b << endl;
+A. 3
+B. 259
+C. 5
+D. 42
+ANSWER: C

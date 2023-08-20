@@ -1,0 +1,30 @@
+What will the following C++ code fragment output?
+	unsigned long long n = 3; // assume 64 bits
+	char *p = (char*)(&n);
+	p++;
+	*p = 1;
+	cout << "n: " << n << endl;
+A. 3
+B. 259
+C. 256
+D. 42
+ANSWER: B
+
+What will the following code fragment print out?
+	x = 4
+	cout << ( x & 0x0001) << endl;
+A. 0
+B. 4
+C. 1
+D. 42
+ANSWER: A
+
+What will the following C++ code fragment output?
+	unsigned int goo = 1;
+	goo = goo << 2;
+	cout << "goo: " << goo << endl;
+A. 2
+B. 1
+C. 4
+D. 42
+ANSWER: C

@@ -1,0 +1,25 @@
+     Assembly listing for: marieQuizCode-v1.mas
+                Assembled: Tue May 02 13:20:22 MDT 2017
+
+000 A000 |           CLEAR               
+001 1007 |           LOAD cFive          
+002 6000 |  FOR_LOOP OUTPUT              
+003 4008 |           SUBT cOne           
+004 8000 |           SKIPCOND 000        
+005 9002 |           JUMP FOR_LOOP       
+006 7000 |           HALT                
+007 0005 |  cFive    DEC 5               
+008 0001 |  cOne     DEC 1               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         ----------------------------------------------------
+          Symbol   | Defined | References 
+         ----------+---------+-------------------------------
+          FOR_LOOP |   002   | 005
+          cFive    |   007   | 001
+          cOne     |   008   | 003
+         ----------------------------------------------------
+
+

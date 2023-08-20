@@ -1,0 +1,24 @@
+What will the following code fragment print out?
+x = 1024;
+x = x >> 1;
+cout << “x: “ << x << endl;
+
+A. 256
+B. 4096
+C. 512
+D. 42
+ANSWER: C
+
+What will the following code print out?
+int foo = 6;
+int *soo = &foo;
+*soo *=6;
+*soo+=6;
+cout <<  *soo << endl; 
+
+A. 2
+B. 3
+C. 51
+D. 42
+ANSWER: D
+

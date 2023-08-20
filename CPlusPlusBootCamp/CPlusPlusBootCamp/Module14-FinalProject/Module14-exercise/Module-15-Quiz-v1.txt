@@ -1,0 +1,6 @@
+What is 6 * 7?
+A. 42
+B. 2A
+C. 101010
+D. All of the above
+ANSWER: D
